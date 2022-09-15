@@ -15,7 +15,7 @@ wget "{{< ref "/" >}}OSSEM-CDM${OSSEMVERSION}.json"
 ## Powershell
 
 ```powershell
-$OSSEMVERSION=$((Invoke-WebRequest "{{< ref "/" >}}OSSEM-CDM.version").Content); Invoke-WebRequest -OutFile "OSSEM-CDM${OSSEMVERSION}.json" "{{< ref "/" >}}OSSEM-CDM${OSSEMVERSION}.json"
+$OSSEMVERSION=$([System.Text.Encoding]::ASCII.GetString((Invoke-WebRequest "{{< ref "/" >}}OSSEM-CDM.version").Content)); Invoke-WebRequest -OutFile "OSSEM-CDM${OSSEMVERSION}.json" "{{< ref "/" >}}OSSEM-CDM${OSSEMVERSION}.json"
 ```
 {{< /tab >}}
 {{< /tabs >}}

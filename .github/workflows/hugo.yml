@@ -43,6 +43,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
+      - name: Go in Hugo directory
+        run: cd ./pages/src/
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -55,7 +57,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./pages/src/public
+          path: ./public
 
   # Deployment job
   deploy:

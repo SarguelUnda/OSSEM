@@ -7,3 +7,4 @@ resources/.DS_Store
 /z.sort/
 /env
 docs/_build/
+__pycache__

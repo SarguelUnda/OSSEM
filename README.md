@@ -4,6 +4,8 @@
 ![Open_Threat_Research Community](https://img.shields.io/badge/Open_Threat_Research-Community-brightgreen.svg)
 [![Twitter](https://img.shields.io/twitter/follow/OSSEM_Project.svg?style=social&label=Follow)](https://twitter.com/OSSEM_Project)
 
+![OSSEM-DD](https://img.shields.io/github/v/tag/SarguelUnda/OSSEM-DD?label=OSSEM-DD&style=for-the-badge) ![OSSEM-CDM](https://img.shields.io/github/v/tag/SarguelUnda/OSSEM-CDM?label=OSSEM-CDM&style=for-the-badge) ![OSSEM-DM](https://img.shields.io/github/v/tag/SarguelUnda/OSSEM-DM?label=OSSEM-DM&style=for-the-badge)
+
 A community-led project focused primarily on the documentation, standardization and modeling of security event logs.
 
 <img src="resources/images/OSSEM_logo.png" width=300>

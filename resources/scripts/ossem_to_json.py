@@ -40,8 +40,12 @@ def main():
 
     path = args.output
 
-    result = subprocess.check_output(['git', 'submodule', '--quiet', 'foreach',
-                                      "echo $name; git tag --list --sort=-v:refname | head -n 1"]).decode('ascii').splitlines()
+    output = subprocess.check_output(['git', 'submodule', '--quiet', 'foreach',
+                                      "echo $name; git tag --list --sort=-v:refname | head -n 1"]).decode('ascii')
+
+    print(output)
+
+    result = output.splitlines()
 
     for module_name, version in grouped(result, 2):
 

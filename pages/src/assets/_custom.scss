@@ -1,0 +1,19 @@
+body {
+
+    main.container {
+        max-width: 75vw;
+    }
+
+    .book-brand {
+        a {
+            img {
+                width: 201px;
+                height: 170px;
+            }
+            span {
+                display: none;
+            }
+        }
+    }
+
+}

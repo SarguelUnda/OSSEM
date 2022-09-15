@@ -43,7 +43,7 @@ def main():
     output = subprocess.check_output(['git', 'submodule', '--quiet', 'foreach',
                                       "echo $name; git tag --list --sort=-v:refname | head -n 1"]).decode('ascii')
 
-    print(output)
+    print(f"OUTPUT = {output}")
 
     result = output.splitlines()
 

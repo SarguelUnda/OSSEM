@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hugo:
+    image: klakegg/hugo:ext
+    command: server --poll 700ms --disableFastRender
+    volumes:
+      - "./src:/src"
+    ports:
+      - "1313:1313"

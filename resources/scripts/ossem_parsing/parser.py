@@ -9,7 +9,7 @@ from .dm import get_detection_model
 def load_ossem(ossem_parsing_function,
                 ossem_name=None,
                 from_cache=True,
-                cache_path="./build/",
+                cache_path="./pages/src/ossem_build",
                 ossem_path=None):
     """
     Loads an ossem project definition from a directory or json file
